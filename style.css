@@ -23,7 +23,8 @@ body {
 }
 
 header {
-    background-color: #d094837b;
+    background-image: linear-gradient(to right, #d094837b, transparent);
+
 }
 
 header > h1 {
@@ -31,7 +32,7 @@ header > h1 {
     text-transform: capitalize;
     color: #fffaf8;
     font-size: 20px;
-    margin-left: 10px;
+    padding: 5px;
 }
 .cartao-body {
     background-color: #E67D61;
