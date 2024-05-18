@@ -6,7 +6,6 @@
 *{ margin: 0; padding: 0; border: 0; }
 
 
-
 :root {
     --cor1: #E6B0AE;
     --cor2: #E66515;
@@ -19,7 +18,7 @@
 
 body {
     background-color: #E6B0AE;
-    height: 100vh;
+    height: 50vh;
     font-family: 'Freeman', sans-serif;  
 }
 
@@ -92,34 +91,117 @@ header > h1 {
 }
 
 .informacoes {
-    width: 300px;
-    height: 130px;
-    position: absolute;
-    top: 70px;
-    padding-left: 10px;
-}
-
-.informacoes > p {
+    width: 0px;
+    position: relative;
+    top: 65px;
+    left: -130px;
     font-family: Concert One;
-    font-weight: 100;
-    color: var(--cor1);
-    padding-bottom: 20px;
+    color: #eacdcc;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.63);
 }
 
-.nome {
-    padding-top: px;
+p {
+    margin-top: 6px;
 }
 
+#day {
+    width: 50px;
+    height: 30px;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 249, 249);
+    font-weight: 600;
+    outline-width: none;
+    padding: 0px 5px 0px 10px; 
+
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#year {
+    width: 50px;
+    height: 30px;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 249, 249);
+    font-weight: 600;
+    outline-width: none;
+    padding: 0px 5px 0px 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.InputContainer {
+    display: relative;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 5px 0px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  }
+  
+  .input {
+    width: 170px;
+    height: 100%;
+    font-size: 0.9em;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 249, 249);
+    font-weight: 600;
+    outline-width: none;
+    padding-left: 5px;
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .visaCard {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -200px;
+    top: 1px;
+    height: 25px;
+    background-color: rgb(255, 254, 254);
+    pointer-events: none;
+    border: 1px solid rgba(255, 255, 255, 0.068);
+    border-radius: 7px;
+    
+  }
+  
 .button {
-    position: relative;
-    height: 100vh;
-    width: 8%;  
+   display: flex;
+   justify-content: flex-end; 
+   align-items: flex-end;
+   height: 100vh;  
+   align-content: center;
     
 }
-
 button {
-    position: absolute;
-    top: 70%;
-    left: 1000%;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 0px 20px 40px 0px;
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    display: flex;
+    align-content: flex-end;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 2.75em;
+    min-width: 0;
+    outline: none;
+    padding: 0.8em 1.6em;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #e67e61b8;
+    color: #140f0e;
+    transition: 0.5s;
 }
