@@ -41,7 +41,8 @@ header > h1 {
 }
 .cartao-body {
     background-color: #E67D61;
-    width: 500px;
+    min-width: 400px;
+    max-width: 500px;
     height: 250px;
     border-radius: 7px;
     display: flex;
@@ -207,4 +208,62 @@ button:hover {
 Button:active {
     transform: translateY(5px);
     box-shadow: 0 2px #d35400;
+}
+
+@media(max-width: 500px) {
+
+    header {
+        padding-top: 10px;
+    }
+    .cartao-body {
+        font-size: 14px;
+        min-width: 80vw;
+        height: 50vw;
+        border-radius: 7px;
+        display: flex;
+    }
+
+    .inputcard {
+        width: 200px;
+        height: 5vh;
+        margin: 3px 5px;  
+    }
+
+    .visaCard {
+        top: 2vw;
+        height: 8px;
+    }
+
+    .informacoes {
+        margin: 0px 5px;
+        top: 20%;
+
+    }
+
+    label {
+        margin-left: 5px;
+        
+    }
+
+     #day, #year {
+        margin: 5px;
+        height: 5vw;
+    }
+
+    
+    .cartao-body > .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cartao-body > .logo::after {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cartao-body > .nome > a {
+        font-size: 3.4vw;
+
+    }
+
 }
