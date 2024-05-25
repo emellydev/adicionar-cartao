@@ -41,9 +41,8 @@ header > h1 {
 }
 .cartao-body {
     background-color: #E67D61;
-    min-width: 400px;
-    max-width: 500px;
-    height: 250px;
+    min-width: 500px;
+    height: 280px;
     border-radius: 7px;
     display: flex;
     position: absolute;
@@ -101,7 +100,7 @@ header > h1 {
 .informacoes {
     width: 0px;
     position: relative;
-    top: 55px;
+    top: 60px;
     left: -130px;
     font-family: Concert One;
     color: #eacdcc;
@@ -210,7 +209,7 @@ Button:active {
     box-shadow: 0 2px #d35400;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
 
     header {
         padding-top: 10px;
@@ -225,12 +224,12 @@ Button:active {
 
     .inputcard {
         width: 200px;
-        height: 5vh;
+        height: 4vh;
         margin: 3px 5px;  
     }
 
     .visaCard {
-        top: 2vw;
+        top: 1vw;
         height: 8px;
     }
 
@@ -262,7 +261,7 @@ Button:active {
     }
 
     .cartao-body > .nome > a {
-        font-size: 3.4vw;
+        font-size: 3.2vw;
 
     }
 
